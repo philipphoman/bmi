@@ -5,7 +5,7 @@
 
 ## Author
 
-Philipp Homan <phoman1 at northwell dot edu>
+Philipp Homan (phoman1 at northwell dot edu)
 
 
 ## Full author list
