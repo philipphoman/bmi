@@ -1,70 +1,76 @@
+
 # Antipsychotic-induced weight gain and the striatum
 
-# Author
+
+
+## Author
+
 Philipp Homan <phoman1 at northwell dot edu>
 
-# Getting Started
-This repository contains all the data and analysis
-code to reproduce the manuscript "Striatal volume and functional
-connectivity predict weight gain in early-phase schizophrenia". These
-instructions describe how to obtain a copy of the project up and running
-on your local machine for reproducing the analysis described in the
-manuscript. The repository contains a Makefile which reflects the
-dependencies of the analysis; analysis, figures and manuscript can be
-produced by simply typing 'make' from the Unix command line.
 
-## Prerequisites
-The project was developed and tested on a Linux Ubuntu 17.10 machine. To
-produce the manuscript from the command line, GNU emacs and texlive must
-be installed together with some additional emacs and texlive
-packages. Specifically, the following software and associated libraries
-are required:
+## Full author list
 
-### texlive
--   xetex
--   latexmk
+Philipp Homan, Dr. Miklos Argyelan, Dr. Christina Fales, Dr. Anita
+Barber, Dr. Pamela DeRosse, Dr. Philip Szeszko, Dr. Delbert Robinson
+, Dr. Todd Lencz, Anil Malhotra
 
-### emacs
--   org-mode
--   ess
--   org-ref
 
-### R
--   pacman
--   R.matlab
--   cowplot
--   ellipse
--   astsa
--   magick
--   here
--   png
--   grid
--   flexmix
--   DescTools
--   boot
--   lme4
--   lsmeans
--   graphics
--   tibble
--   tidyr
--   ggplot2
--   dplyr
--   MASS
+## Acknowledgments
 
-# Installing
-Download the tarball bmi.tgz and run 'tar xvfz bmi.tgz' from the command
-line.
+The authors thank Dr. Lauren Hanna and Dr. Juan Gallego for their
+careful clinical oversight of the study. They acknowledge their
+patients, their patients' families, and their psychiatry research
+support staff.
 
-# Running the analysis
+
+## Getting Started
+
+This repository contains all the data and analysis code to reproduce the
+manuscript *Striatal volume and functional connectivity correlate with
+weight gain in early-phase psychosis*. These instructions describe how
+to obtain a copy of the project up and running on your local machine for
+reproducing the analysis described in the manuscript. The repository
+contains a Makefile which reflects the dependencies of the analysis;
+analysis, figures and manuscript can be produced by simply typing 'make'
+from the Unix command line.
+
+
+### Prerequisites
+
+All analyses were conducted with the R software 
+R version 3.6.0 (2019-04-26). Mixed models were estimated
+using the lme4 library. The full session info under R can be found at
+the end of this file
+
+
+## Installing
+
+Clone the repository or download the zip file.
+
+
+## Running the analysis
+
 Change to the bmi directory and run 'make analysis'.
 
-# Producing the figures
+
+## Producing the figures
+
 Change to the bmi directory and run 'make figures'. The figures can then
 be found in output/figures.
 
-# Producing the manuscript
-Change to the bmi directory and run 'make manuscript'. The manuscript
-will be in src/bmi_ms.pdf</sub>
 
-# Built With
-Org-mode 9.1.7.
+## Producing the manuscript
+
+Change to the bmi directory and run 'make manuscript'. The manuscript
+will be in src/.
+
+
+## Built With
+
+Ubuntu 18.04.2 LTS on emacs
+25.2.2 and org-mode
+9.1.7.
+
+
+## Session info
+
