@@ -10,7 +10,7 @@ Philipp Homan (phoman1 at northwell dot edu)
 
 ## Full author list
 
-Philipp Homan, Dr. Miklos Argyelan, Dr. Christina Fales, Dr. Anita
+Dr. Philipp Homan, Dr. Miklos Argyelan, Dr. Christina Fales, Dr. Anita
 Barber, Dr. Pamela DeRosse, Dr. Philip Szeszko, Dr. Delbert Robinson
 , Dr. Todd Lencz, Anil Malhotra
 
